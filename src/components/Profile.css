@@ -1,0 +1,19 @@
+.profileContainer {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #f7f5f2;
+  transition: 1s;
+  max-width: 740px;
+  height: 140px;
+  overflow: hidden;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.profile {
+  height: 190%;
+  transform: translate(0, 100px);
+  filter: brightness(80%);
+}
