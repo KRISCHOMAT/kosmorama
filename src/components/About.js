@@ -6,7 +6,7 @@ const About = () => {
     <section className="content">
       <h1>About</h1>
       <p>
-        The duo Kosmorama are playing cosmic Jazz music with trumpet, self made
+        The duo Kosmorama is playing cosmic Jazz music with trumpet, self made
         synths and sampler.
       </p>
       <p>Gregor Lener: Trumpet</p>
