@@ -1,0 +1,49 @@
+body {
+  background-color: #180a0a;
+}
+
+.App {
+  text-align: center;
+}
+
+p {
+  max-width: 500px;
+  margin: auto;
+  color: #180a0a;
+  margin-bottom: 20px;
+  font-size: large;
+  text-align: left;
+}
+
+h1,
+h3,
+h4 {
+  color: #180a0a;
+  margin: 0;
+  margin-bottom: 20px;
+}
+
+h1 {
+  font-size: 2.5rem;
+}
+
+.content {
+  position: relative;
+  background-color: #f7f5f2;
+  padding: 20px;
+  margin-bottom: 20px;
+  max-width: 700px;
+  margin-left: auto;
+  margin-right: auto;
+  opacity: 0.9;
+  transition: 1s;
+}
+
+.content:hover {
+  opacity: 1;
+}
+
+a {
+  color: #524a4e;
+  text-decoration: none;
+}

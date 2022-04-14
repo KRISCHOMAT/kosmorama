@@ -1,0 +1,43 @@
+.customPlayer {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  background-color: #180a0a;
+  transition: 1s;
+  max-width: 740px;
+  height: 300px;
+  overflow: hidden;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 20px;
+}
+
+.cover {
+  height: 120%;
+  transform: translate(20px, 0);
+  transition: height 1s;
+}
+
+.smallPlayer {
+  display: flex;
+  position: absolute;
+  align-items: center;
+  justify-content: center;
+  bottom: 0;
+  width: 100%;
+}
+
+iframe {
+  border: 0;
+  width: 95%;
+  height: 120px;
+}
+
+@media screen and (max-width: 500px) {
+  iframe {
+    width: 100%;
+  }
+}

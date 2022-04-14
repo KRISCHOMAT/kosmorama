@@ -1,0 +1,49 @@
+.stillContainer {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  color: #f7f5f2;
+  transition: 1s;
+  max-width: 740px;
+  height: 300px;
+  overflow: hidden;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 20px;
+}
+
+.stillContainer:hover {
+  color: #180a0a;
+}
+
+.iconContainer {
+  position: absolute;
+  opacity: 0.9;
+}
+
+.image {
+  height: 120%;
+  transition: height 1s;
+}
+
+.image:hover {
+  height: 130%;
+}
+
+@media screen and (max-width: 500px) {
+  .image {
+    height: 100%;
+    transform: translate(20px, 0);
+  }
+
+  .image:hover {
+    height: 100%;
+  }
+}
+
+.close {
+  margin: 10px 10px 10px 40px;
+  cursor: pointer;
+}
