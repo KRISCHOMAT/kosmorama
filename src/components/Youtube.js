@@ -15,13 +15,13 @@ const Youtube = ({ show, toggleModal }) => {
   return (
     <div className={show ? "youtubeContainer" : "hide"}>
       <div className="close" onClick={toggleModal}>
-        <AiOutlineCloseCircle size={30} />
+        <AiOutlineCloseCircle size={35} />
       </div>
       <div className="video-responsive content">
         <iframe
           width="853"
           height="480"
-          allow=""
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
           src={`https://www.youtube.com/embed/_m4EytqWVt0`}
           frameBorder="0"
           allowFullScreen
